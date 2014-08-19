@@ -6,7 +6,10 @@ Imaging with any questions regarding Web Fonts:  http://webfonts.fonts.com
 */
 
 body {
-	font-family:'LT Univers W01 Typewriter'; font-weight:700; font-style:normal;
+	font-family:'LT Univers W01 Typewriter'; 
+	font-weight:700; 
+	font-style:normal;
+	letter-spacing: -1px;
 }
 
 img {
