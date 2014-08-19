@@ -3,7 +3,7 @@
   <koken:meta />
   <koken:title />
   <koken:settings />
-  <koken:asset file="js/webfonts.js" />
+  <koken:asset file="css/Fonts/webfonts.js" />
 </head>
 <body>
 <koken:load>
