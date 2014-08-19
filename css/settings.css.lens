@@ -5,6 +5,10 @@ redistribute, convert, modify or reverse engineer this font software. Please con
 Imaging with any questions regarding Web Fonts:  http://webfonts.fonts.com
 */
 
+body {
+	font-family:'LT Univers W01 Typewriter'; font-weight:700; font-style:normal;
+}
+
 img {
   width:100%;
   max-width:100%;
