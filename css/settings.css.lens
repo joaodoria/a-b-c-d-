@@ -1,0 +1,19 @@
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://webfonts.fonts.com
+*/
+
+img {
+  width:100%;
+  max-width:100%;
+  height:auto;
+}
+
+ol.grid li {
+  list-style:none;
+  display:inline-block;
+  margin:0 10px 10px 0;
+  width:15%;
+}
