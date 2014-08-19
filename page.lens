@@ -5,6 +5,7 @@
     <meta name="keywords" content="{{ site.keywords }}" />
     <koken:title />
     <koken:settings />
+    <koken:asset file="js/webfonts.css" />
   </head>
   <body>
     <header>
