@@ -12,6 +12,7 @@
   </nav>
 </header>
 <koken:load>
+<koken:pulse />
   <h2>{{ album.title }}</h2>
   {{ album.description paragraphs="true" }} 
   <koken:tags>
