@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+  <head>
+    <koken:meta />
+    <koken:title />
+    <koken:settings />
+  </head>
+  <body>
+    <koken:load>
+      <nav>
+        <koken:navigation />
+      </nav>
+      <koken:breadcrumbs />
+      <h1>You are viewing all content tagged #{{ event.title }}</h1>
+      <koken:loop>
+        <koken:time />
+        <!-- insert same koken:event code from timeline.lens -->
+      </koken:loop>
+    <koken:else>
+      <koken:note>
+        No timeline data found.
+      </koken:note>
+    </koken:load>
+  </body>
+</html>

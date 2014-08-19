@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+  <koken:meta />
+  <koken:title />
+  <koken:settings />
+</head>
+<body>
+<koken:load>
+  <header>
+    <h1>{{ site.title }}</h1>
+    <nav>
+     <koken:navigation />
+    </nav>
+  </header>
+  <koken:breadcrumbs />
+  <h1>Most recent content tagged {{ category.title }}</h1>
+  <ol class="list">
+    <koken:loop>
+      <li>
+        <!-- insert same koken:event code from timeline.lens -->
+      </li>
+    </koken:loop>
+  </ol>
+<koken:else>
+  <koken:note>
+    No timeline data found. 
+  </koken:note>
+</koken:load>
+</body>
+</html>

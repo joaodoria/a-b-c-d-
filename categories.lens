@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+  <head>
+    <koken:meta />
+    <koken:title />
+    <koken:settings />
+  </head>
+  <body>
+  <header>
+    <h1>{{ site.title }}</h1> 
+    <nav>
+      <koken:navigation />
+    </nav>
+  </header>
+    <koken:load>
+      <h1>{{ labels.category.plural }}</h1>
+      <ol>
+        <koken:loop>
+          <li>
+            <koken:link>
+              {{ category.title }}
+            </koken:link>
+          </li>
+        </koken:loop>
+      </ol>
+    <koken:else>
+      <koken:note>No categories found</koken:note>
+    </koken:load>
+  </body>
+</html>
