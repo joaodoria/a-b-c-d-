@@ -14,8 +14,30 @@
 <koken:load>
   <h2>{{ album.title }}</h2>
   {{ album.description paragraphs="true" }} 
+  <koken:tags>
+    <p>
+      <strong>{{ labels.tag.plural }}:</strong> 
+      <koken:loop separator=" ">
+        <koken:link>
+          #{{ tag.title }} 
+        </koken:link>
+      </koken:loop>
+    </p>
+  </koken:tags>
+  <koken:categories>
+    <p>
+      <strong>{{ labels.category.plural }}:</strong> 
+      <koken:loop separator=", ">
+        <koken:link>
+          {{ category.title }} 
+        </koken:link>
+      </koken:loop>
+    </p>
+  </koken:categories>
   <p>
-  <koken:time />
+    <koken:link to="archive">
+      <koken:time />
+    </koken:link>
   </p>
   <ol class="grid">
     <koken:loop>
